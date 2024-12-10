@@ -1,0 +1,167 @@
+body {
+  background-color: #fff8ea;
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+
+/* Headings */
+
+.heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid {
+  padding: 7% 10%;
+}
+
+/* Navigation Bar */
+
+#navigation .container-fluid {
+  padding: 0;
+}
+
+.navbar {
+  padding: 1% 10%;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu Condensed", sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+/* Title  */
+
+#title .container-fluid {
+  padding: 3% 10%;
+}
+
+#title .caption {
+  font-size: 1.2rem;
+}
+
+/* Product  */
+
+#products .container-fluid {
+  padding: 0 10% 7%;
+}
+
+#products .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+#products .card-title {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+#products .price-text {
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+#products .card-body {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1; 
+  justify-content: space-between;
+}
+
+#products .grayscale {
+  filter: grayscale(100%);
+}
+
+#products .btn-block {
+  margin-top: auto;
+}
+
+/* Footer Section */
+
+.footer-heading {
+  font-size: 2.5rem;
+  margin-bottom: 7%;
+}
+
+.social-icon {
+  font-size: 1.2rem;
+  margin: 20px 10px;
+}
+
+@media screen and (max-width: 1028px) {
+  .heading {
+    font-size: 2.5rem;
+  }
+
+  .navbar-brand {
+    font-size: 1.5rem;
+  }
+
+  #title .caption {
+    font-size: 1rem;
+  }
+
+  #products .card-title {
+    font-size: 1rem;
+  }
+
+  #products .price-text {
+    font-size: 1.2rem;
+  }
+
+  .footer-heading {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .heading {
+    font-size: 2rem;
+  }
+
+  .navbar-brand {
+    font-size: 1rem;
+  }
+
+  #title .caption {
+    font-size: 0.8rem;
+  }
+
+  #products .card-title {
+    font-size: 0.9rem;
+    line-height: 1.5;
+  }
+
+  #products .price-text {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+
+  .footer-heading {
+    font-size: 1.5rem;
+  }
+}

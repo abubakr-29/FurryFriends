@@ -1,0 +1,151 @@
+body {
+  background-color: #fff8ea;
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+
+/* Headings */
+
+.heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid {
+  padding: 7% 10%;
+}
+
+/* Navigation Bar */
+
+#navigation .container-fluid {
+  padding: 0;
+}
+
+.navbar {
+  padding: 1% 10%;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu Condensed", sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+/* Dog Description */
+
+#dog-description {
+  text-align: left;
+}
+
+#dog-description .price-text {
+  font-family: "Ubuntu Condensed", sans-serif;
+  font-size: 1.5rem;
+}
+
+/* About */
+
+#about {
+  background-color: #815b5b;
+  color: #fff;
+}
+
+#about .heading {
+  margin-bottom: 20px;
+}
+
+#about .about-text {
+  text-align: left;
+}
+
+/* Call to Action */
+
+#cta {
+  background-color: #594545;
+  color: #fff;
+}
+
+#cta .heading {
+  font-size: 2rem;
+  margin-bottom: 50px;
+}
+
+/* Footer Section */
+
+.footer-heading {
+  font-size: 2.5rem;
+  margin-bottom: 7%;
+}
+
+.social-icon {
+  font-size: 1.2rem;
+  margin: 20px 10px;
+}
+
+@media screen and (max-width: 1028px) {
+  .heading {
+    font-size: 2.5rem;
+  }
+
+  .navbar-brand {
+    font-size: 1.5rem;
+  }
+
+  #dog-description .price-text {
+    font-size: 1.2rem;
+  }
+
+  #about .about-text {
+    font-size: 0.8rem;
+  }
+
+  #cta .heading {
+    font-size: 1.7rem;
+  }
+
+  .footer-heading {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .heading {
+    font-size: 2rem;
+  }
+
+  .navbar-brand {
+    font-size: 1rem;
+  }
+
+  #dog-description .price-text {
+    font-size: 1rem;
+  }
+
+  #cta .heading {
+    font-size: 1.2rem;
+  }
+
+  .footer-heading {
+    font-size: 1.5rem;
+  }
+}

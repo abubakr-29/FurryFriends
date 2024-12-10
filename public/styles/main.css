@@ -1,0 +1,328 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+.background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+
+/* Headings */
+
+.big-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid {
+  padding: 7% 10%;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #815b5b;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff8ea;
+  color: #000000;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu Condensed", sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+/*Join Buttons */
+
+.join-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Section */
+
+#title {
+  color: white;
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  text-align: left;
+}
+
+#title .container-fluid {
+  position: relative;
+  z-index: 1;
+  padding: 3% 10% 7%;
+}
+
+/* Features Section */
+
+#features {
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.2rem;
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+.icon {
+  color: #9e7676;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #815b5b;
+}
+
+/* Best-Seller Section */
+
+#best-seller .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+#best-seller .card-body {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1; 
+  justify-content: space-between;
+  color: #000000;
+}
+
+#best-seller .card-title {
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+}
+
+#best-seller .dog-description {
+  flex-grow: 1; 
+}
+
+#best-seller .btn-block {
+  margin-top: auto;
+}
+
+.service-column {
+  padding: 2%;
+}
+
+.product-link {
+  font-family: "Ubuntu Condensed", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 300;
+  display: inline-block;
+  margin-top: 5%;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+  background-color: #594545;
+}
+
+.testimonial-text {
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 8%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #594545;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Call To Action */
+
+#dream-dog {
+  background: url("../assets/images/family-dog.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-size: 100%;
+  transition: background-size 0.3s ease-in-out;
+}
+
+#dream-dog:hover {
+  background-size: 120%;
+}
+
+#dream-dog .section-heading {
+  font-size: 2.5rem;
+}
+
+#dream-dog .lead {
+  font-size: 1rem;
+  line-height: 2;
+}
+
+.cta-picture {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 25px;
+}
+
+#cta .lead {
+  text-align: left;
+  font-size: 1rem;
+}
+
+.cta-button {
+  margin: 4% 0 0 4%;
+}
+
+.scroll-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #222831;
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 50%;
+  display: none;
+}
+
+.scroll-to-top.active {
+  display: block;
+}
+
+/* Footer Section */
+
+.footer-heading {
+  font-size: 2.5rem;
+  margin-bottom: 7%;
+}
+
+.social-icon {
+  font-size: 1.2rem;
+  margin: 20px 10px;
+}
+
+@media screen and (max-width: 1028px) {
+  .big-heading {
+    font-size: 2.5rem;
+  }
+
+  .navbar-brand {
+    font-size: 1.5rem;
+  }
+
+  .section-heading {
+    font-size: 2.5rem;
+  }
+
+  .testimonial-text {
+    font-size: 2rem;
+  }
+
+  .testimonial-date {
+    font-size: 0.8rem;
+  }
+
+  #dream-dog .section-heading {
+    font-size: 2.5rem;
+  }
+
+  #dream-dog .lead {
+    font-size: 0.8rem;
+  }
+
+  .footer-heading {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .big-heading {
+    font-size: 2rem;
+  }
+
+  .section-heading {
+    font-size: 2rem;
+  }
+
+  .navbar-brand {
+    font-size: 1rem;
+  }
+
+  .testimonial-text {
+    font-size: 1.5rem;
+  }
+
+  .testimonial-date {
+    font-size: 0.6rem;
+  }
+
+  #dream-dog .section-heading {
+    font-size: 1.5rem;
+  }
+
+  #cta .lead {
+    font-size: 0.8rem;
+  }
+
+  .footer-heading {
+    font-size: 1.5rem;
+  }
+}

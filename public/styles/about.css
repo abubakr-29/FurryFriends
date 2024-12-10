@@ -1,0 +1,166 @@
+body {
+  background-color: #fff8ea;
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+
+/* Headings */
+
+.heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.sub-heading {
+  font-size: 2rem;
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+/* Containers */
+
+.container-fluid {
+  padding: 7% 10%;
+}
+
+/* Navigation Bar */
+
+#navigation .container-fluid {
+  padding: 0;
+}
+
+.navbar {
+  padding: 1% 10%;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu Condensed", sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+/* About */
+
+.heading-underline {
+  border: 4px solid black;
+  border-radius: 10px;
+  width: 90px;
+  margin: 0 auto;
+}
+
+.sub-heading-underline {
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 70px;
+  margin: 20px 0 0;
+}
+
+#about .sub-heading {
+  text-align: left;
+}
+
+#about .about-img {
+  border-radius: 50%;
+}
+
+.content {
+  margin-top: 30px;
+  text-align: left;
+}
+
+.content .question {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.content .answer {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+/* Footer Section */
+
+.footer-heading {
+  font-size: 2.5rem;
+  margin-bottom: 7%;
+}
+
+.social-icon {
+  font-size: 1.2rem;
+  margin: 20px 10px;
+}
+
+@media screen and (max-width: 1028px) {
+  .heading {
+    font-size: 2.5rem;
+  }
+
+  .navbar-brand {
+    font-size: 1.5rem;
+  }
+
+  #about .sub-heading {
+    font-size: 1.8rem;
+  }
+
+  .content .question {
+    font-size: 20px;
+  }
+
+  .content .answer {
+    font-size: 16px;
+  }
+
+  .footer-heading {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .heading {
+    font-size: 2rem;
+  }
+
+  .navbar-brand {
+    font-size: 1rem;
+  }
+
+  #about .sub-heading {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .sub-heading-underline {
+    margin: 0 auto;
+  }
+
+  .content .question {
+    font-size: 18px;
+  }
+
+  .content .answer {
+    font-size: 14px;
+  }
+
+  .footer-heading {
+    font-size: 1.5rem;
+  }
+}
